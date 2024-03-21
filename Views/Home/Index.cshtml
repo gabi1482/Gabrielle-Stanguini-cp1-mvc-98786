@@ -1,0 +1,64 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-8">
+            <h1 class="display-4" style="color: #267C7C;">Seja Bem-Vindo @ViewBag.user.Name</h1>
+            <h1 style="color: #267C7C;">Ao Pet Shop PetCare</h1>
+            <p>Seu parceiro confiável para cuidar dos seus animais de estimação.</p>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="card" style="background-color: #267C7C;">
+                        <img src="https://via.placeholder.com/300" class="card-img-top" alt="Imagem 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Serviço de Banho e Tosa</h5>
+                            <p class="card-text">Oferecemos serviços profissionais de banho e tosa para manter seu pet limpo e saudável.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card" style="background-color: #267C7C;">
+                        <img src="https://via.placeholder.com/300" class="card-img-top" alt="Imagem 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Consulta Veterinária</h5>
+                            <p class="card-text">Agende consultas com nossos veterinários especializados para garantir a saúde do seu animalzinho.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <h3 style="color: #267C7C;">Horário de Funcionamento</h3>
+            <ul class="list-group">
+                <li class="list-group-item">Segunda a Sexta: 8h às 18h</li>
+                <li class="list-group-item">Sábado: 9h às 13h</li>
+                <li class="list-group-item">Domingo: Fechado</li>
+            </ul>
+            <div class="mt-3">
+                <h3 style="color: #267C7C;">Localização</h3>
+                <p>Rua dos Loucos, 0 - São Paulo</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    body {
+        background-color: #D4FFFF;
+    }
+
+    .vh-100 {
+        min-height: 100vh;
+    }
+
+    .card {
+        margin-bottom: 20px;
+    }
+
+    .list-group-item {
+        background-color: #267C7C;
+        color: #fff;
+    }
+</style>
